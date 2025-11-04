@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head><title>HEALTHYBITES</title>
+<link rel="shortcut icon" href="F:\proyecto1\Logo.jpg">
+<link rel="stylesheet" href="Pagina2.css"><meta charset="utf-8"></head>
+<body>
+    <header>
+    <div class="menu">
+    <div class="imagen-menu">
+    <div class="img1">
+    <img src="F:\proyecto1\Logo.jpg" width="50px" height="50px">
+    </div></div>
+    <div class="fig1">HEALTHYBITES</div>
+    </header>
+<div class="submenu">
+            <div class="opcion"><a href="F:\proyecto1\Pagina3.html">Pregunta Problema</a></div>
+            <div class="opcion"><a href="F:\proyecto1\Pagina3.html">Objetivo General</a></div>
+            <div class="opcion"><a href="F:\proyecto1\Pagina3.html">Objetivos Específicos</a></div>
+        </div>
+    </div>
+    <nav class="menu-horizontal">     
+        <ul>         
+            <li><div class="text1"><a href="F:\proyecto1\Pagina.html">Inicio</a></div></li>         
+            <li><div class="text2"><a href="F:\proyecto1\Pagina2.html">Contenido</a></div></li>         
+            <li><div class="text3"><a href="F:\proyecto1\Pagina3.html">Perfiles</a></div></li>  
+            <li><div class="text1"><a href="F:\proyecto1\Pagina.html">Evidencias</a></div></li>     
+              
+        </ul> 
+    </nav>
+
+    <div class="text6"><h4>¿Qué es el desperdicio de alimentos?</h4></div>
+    <div class="text7">Vivimos en un mundo de profundas contradicciones. Mientras más de 800 millones de personas padecen hambre crónica, un tercio de todos los alimentos producidos para el consumo humano nunca llega a nuestros platos. Este fenómeno, conocido como desperdicio de alimentos, no es solo un fracaso moral y social, sino también una de las mayores inefficiencias económicas y ambientales de nuestro tiempo. Comprender sus causas, impactos y soluciones es el primer paso para construir un sistema alimentario más justo y sostenible.</div>
+    <div class="imagen1"><img src="F:\proyecto1\Imagen1.jpg" width='270px'height='180px'></div>
+    <div class="text8">
+        <p>Es importante distinguir entre dos conceptos clave, aunque a menudo se usen indistintamente:</p>       
+        <p><strong>Pérdida de alimentos:</strong> Ocurre en las primeras etapas de la cadena de suministro (producción, poscosecha, almacenamiento y transporte). Suele ser más común en países en desarrollo debido a infraestructuras deficientes, técnicas de cosecha inadecuadas o falta de tecnología.</p>        
+        <p><strong>Desperdicio de alimentos:</strong> Se refiere a los productos perfectamente comestibles que son descartados en las etapas finales de la cadena: venta minorista, servicios de alimentación (restaurantes, cafeterías) y, sobre todo, en nuestros hogares.</p>    
+         <p><p></p>
+
+    </div>
+    <div class="text9"><h4>Principales causas</h4></div>
+    <div class="text10">El desperdicio no tiene una sola causa, sino que es el resultado de un entramado de factores que operan en toda la cadena:
+    <p><h5 style=color:#b32020>En la Producción y Distribución:</h5></p>
+    <p><strong>Estándares estéticos:</strong> Frutas y verduras perfectamente comestibles son descartadas por no cumplir con los estándares de tamaño, forma o color exigidos por supermercados y consumidores.</p>
+    <p><strong>Problemas logísticos:</strong> Almacenamiento inadecuado, embalajes deficientes y transporte inefficiente provocan que la comida se dañe antes de llegar al mercado.</p>
+    <p><strong>Exigencias del mercado:</strong> Los pedidos cancelados o las fluctuaciones de la demanda pueden dejar a productores y distribuidores con excedentes no vendibles.</p>
+    <p><h5 style=color:#b32020>En los Minoristas (Supermercados):</h5></p>
+    <p><strong>Políticas de "llenado hasta el tope":</strong> Mantener los estantes siempre llenos y perfectamente surtidos hasta la hora de cierre genera inevitablemente excedentes.</p>
+    <p><strong>Fechas de caducidad confusas:</strong> La distinción entre "consumir preferentemente antes de" (indica calidad óptima) y "fecha de caducidad" (riesgo para la salud) no es clara para muchos consumidores, que terminan tirando comida perfectamente segura.</p>
+    <p><strong>Descuentos por volumen:</strong> Promociones como "2x1" o "lleva 3 y paga 2" animan a comprar más de lo necesario, lo que a menudo deriva en desperdicio.</p>
+    <p><h5 style=color:#b32020>En los Hogares:</h5></p>
+    <p><strong>Mala planificación:</strong> Comprar sin una lista, improvisar menús y no comprobar lo que ya se tiene en la despensa lleva a adquirir productos innecesarios que acaban olvidados.</p>
+    <p><strong>>Almacenamiento inadecuado:</strong> No saber cómo o dónde guardar los alimentos para maximizar su frescura acelera su deterioro.</p>
+    <p><strong>Cocinar en exceso:</strong> Preparar porciones demasiado grandes y no aprovechar las sobras.</p>
+    <p><strong>Interpretación errónea de las fechas:</strong> Tirar alimentos basándose únicamente en la fecha "consumir preferentemente antes de".</div>
+        
+        
+        <button onclick="mostrarImagen(1)">Evidencia 1 </button>
+        <button onclick="mostrarImagen(2)">Evidencia 2 </button>
+        <button onclick="mostrarImagen(3)">Evidencia 3 </button>
+        <button onclick="mostrarImagen(4)">Evidencia 4 </button>
+        <button onclick="mostrarImagen(5)">Evidencia 5 </button>
+        
+        <div id="contenedor">
+          <img id="img1" src=".jpeg" alt="Imagen 1" style="display:none; width:300px;">
+          <img id="img2" src="" alt="Imagen 2" style="display:none; width:300px;">
+          <img id="img3" src="i" alt="Imagen 3" style="display:none; width:300px;">
+          <img id="img2" src="" alt="Imagen 2" style="display:none; width:300px;">
+          <img id="img3" src="" alt="Imagen 3" style="display:none; width:300px;">
+        </div>
+      
+        <script >
+          function mostrarImagen(num) {
+        
+        document.getElementById("img1").style.display = "none";
+        document.getElementById("img2").style.display = "none";
+        document.getElementById("img3").style.display = "none";
+      
+        
+        document.getElementById("img" + num).style.display = "block";
+
+      }
+      
+        </script>
+      </body>
+      </html>
+        <footer>
+	<div class="footer-content">
+            <div class="social-icons">
+                <a href="#"><img src="F:\proyecto\Facebook.png" alt="Facebook" width="50" height="50"></a>
+                <a href="#"><img src="F:\proyecto\X.png" alt="X" width="50" height="50"></a>
+                <a href="#"><img src="F:\proyecto\Instagram.jpg" alt="Instagram" width="50" height="50"></a>
+            </div>
+            <center><p>2025 Healthybites. Todos los derechos reservados. | <a href="">Contactanos</a> | <a href="https://youtu.be/6T-sed7nuvc?si=2gCRr7bGjZ--0sJE">Youtube</a></p></center>
+        </div>
+    </footer>
+</body>
+</html>

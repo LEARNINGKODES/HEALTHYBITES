@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title data-es="HEALTHYBITES" data-en="HEALTHYBITES">HEALTHYBITES</title>
+    <link rel="shortcut icon" href="./imagenes/Logo.jpg">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Pagina.css">
+</head>
+<body>
+    <header class="hero-header">
+        <div class="header-content">
+            <div class="logo-circle">
+                <img src="./imagenes/Logo.jpg" alt="Logotipo">
+            </div>
+            <h1 class="marca lang" data-es="HEALTHYBITES" data-en="HEALTHYBITES">HEALTHYBITES</h1>
+        </div>
+        <nav class="nav-orbits">
+            <ul>
+                <li><button class="orbit-btn lang" onclick="scrollToSection('quienes-somos')" data-es="Quiénes Somos" data-en="About Us">Quiénes Somos</button></li>
+                <li><button class="orbit-btn lang" onclick="scrollToSection('solucion-tecnologica')" data-es="Solución Tecnológica" data-en="Technological Solution">Solución Tecnológica</button></li>
+                <li><button class="orbit-btn lang" onclick="scrollToSection('evidencias')" data-es="Evidencias" data-en="Evidence">Evidencias</button></li>
+                <li><button class="orbit-btn lang" onclick="scrollToSection('perfiles')" data-es="Perfiles" data-en="Profiles">Perfiles</button></li>
+                <li><a href="aqui el contactooo"><button class="orbit-btn lang"  data-es="Contacto" data-en="Contact">Contacto</button></a></li>
+                <li><button id="lang-toggle" class="orbit-btn lang" data-es="English" data-en="Español">English</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-flow">
+        <!-- Hero Intro -->
+        <section class="hero-intro">
+            <div class="intro-content">
+                <h2 class="lang" data-es="¿Qué es el desperdicio de alimentos?" data-en="What is food waste?">¿Qué es el desperdicio de alimentos?</h2>
+                <p class="lang" data-es="Vivimos en un mundo de profundas contradicciones. Mientras más de 800 millones de personas padecen hambre crónica, un tercio de todos los alimentos producidos para el consumo humano nunca llega a nuestros platos. Este fenómeno, conocido como desperdicio de alimentos, no es solo un fracaso moral y social, sino también una de las mayores inefficiencias económicas y ambientales de nuestro tiempo. Comprender sus causas, impactos y soluciones es el primer paso para construir un sistema alimentario más justo y sostenible." data-en="We live in a world of profound contradictions. While more than 800 million people suffer from chronic hunger, a third of all food produced for human consumption never reaches our plates. This phenomenon, known as food waste, is not only a moral and social failure but also one of the greatest economic and environmental inefficiencies of our time. Understanding its causes, impacts, and solutions is the first step toward building a fairer and more sustainable food system.">Vivimos en un mundo de profundas contradicciones. Mientras más de 800 millones de personas padecen hambre crónica, un tercio de todos los alimentos producidos para el consumo humano nunca llega a nuestros platos. Este fenómeno, conocido como desperdicio de alimentos, no es solo un fracaso moral y social, sino también una de las mayores inefficiencias económicas y ambientales de nuestro tiempo. Comprender sus causas, impactos y soluciones es el primer paso para construir un sistema alimentario más justo y sostenible.</p>
+            </div>
+            <img src="./imagenes/Imagen1.jpg" alt="Intro Image" class="intro-img">
+        </section>
+
+        <!-- Concept Distinction -->
+        <section class="concept-orbit" id="distincion-conceptos">
+            <div class="orbit-center">
+                <h2 class="lang" data-es="Distinción de Conceptos" data-en="Concept Distinction">Distinción de Conceptos</h2>
+                <div class="orbit-ring">
+                    <div class="ring-item">
+                        <p class="lang" data-es="Es importante distinguir entre dos conceptos clave, aunque a menudo se usen indistintamente:" data-en="It is important to distinguish between two key concepts, although they are often used interchangeably:">Es importante distinguir entre dos conceptos clave, aunque a menudo se usen indistintamente:</p>
+                        <p><strong class="lang" data-es="Pérdida de alimentos:" data-en="Food loss:">Pérdida de alimentos:</strong> Ocurre en las primeras etapas de la cadena de suministro (producción, poscosecha, almacenamiento y transporte). Suele ser más común en países en desarrollo debido a infraestructuras deficientes, técnicas de cosecha inadecuadas o falta de tecnología.</p>
+                    </div>
+                    <div class="ring-item">
+                        <p><strong class="lang" data-es="Desperdicio de alimentos:" data-en="Food waste:">Desperdicio de alimentos:</strong> Se refiere a los productos perfectamente comestibles que son descartados en las etapas finales de la cadena: venta minorista, servicios de alimentación (restaurantes, cafeterías) y, sobre todo, en nuestros hogares.</p>
+                        <p class="lang" data-es="En esencia, el desperdicio es aquella comida que se compra pero no se consume, que se deja estropear en el refrigerador o que se sirve en exceso y se tira." data-en="In essence, waste is food that is bought but not consumed, left to spoil in the refrigerator, or served in excess and thrown away.">En esencia, el desperdicio es aquella comida que se compra pero no se consume, que se deja estropear en el refrigerador o que se sirve en exceso y se tira.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Causes Spiral -->
+        <section class="causes-spiral" id="causas">
+            <h2 class="lang" data-es="Principales Causas" data-en="Main Causes">Principales Causas</h2>
+            <div class="spiral-container">
+                <div class="spiral-path">
+                    <div class="path-node">
+                        <h5 style="color:#b32020" class="lang" data-es="En la Producción y Distribución:" data-en="In Production and Distribution:">En la Producción y Distribución:</h5>
+                        <p><strong class="lang" data-es="Estándares estéticos:" data-en="Aesthetic standards:">Estándares estéticos:</strong> Frutas y verduras perfectamente comestibles son descartadas por no cumplir con los estándares de tamaño, forma o color exigidos por supermercados y consumidores.</p>
+                        <p><strong class="lang" data-es="Problemas logísticos:" data-en="Logistical problems:">Problemas logísticos:</strong> Almacenamiento inadecuado, embalajes deficientes y transporte ineficiente provocan que la comida se dañe antes de llegar al mercado.</p>
+                        <p><strong class="lang" data-es="Exigencias del mercado:" data-en="Market demands:">Exigencias del mercado:</strong> Los pedidos cancelados o las fluctuaciones de la demanda pueden dejar a productores y distribuidores con excedentes no vendibles.</p>
+                    </div>
+                    <div class="path-node">
+                        <h5 style="color:#b32020" class="lang" data-es="En los Minoristas (Supermercados):" data-en="In Retail (Supermarkets):">En los Minoristas (Supermercados):</h5>
+                        <p><strong class="lang" data-es="Políticas de 'llenado hasta el tope':" data-en="'Stock to the brim' policies:">Políticas de "llenado hasta el tope":</strong> Mantener los estantes siempre llenos y perfectamente surtidos hasta la hora de cierre genera inevitablemente excedentes.</p>
+                        <p><strong class="lang" data-es="Fechas de caducidad confusas:" data-en="Confusing expiration dates:">Fechas de caducidad confusas:</strong> La distinción entre "consumir preferentemente antes de" (indica calidad óptima) y "fecha de caducidad" (riesgo para la salud) no es clara para muchos consumidores, que terminan tirando comida perfectamente segura.</p>
+                        <p><strong class="lang" data-es="Descuentos por volumen:" data-en="Volume discounts:">Descuentos por volumen:</strong> Promociones como "2x1" o "lleva 3 y paga 2" animan a comprar más de lo necesario, lo que a menudo deriva en desperdicio.</p>
+                    </div>
+                    <div class="path-node">
+                        <h5 style="color:#b32020" class="lang" data-es="En los Hogares:" data-en="In Households:">En los Hogares:</h5>
+                        <p><strong class="lang" data-es="Mala planificación:" data-en="Poor planning:">Mala planificación:</strong> Comprar sin una lista, improvisar menús y no comprobar lo que ya se tiene en la despensa lleva a adquirir productos innecesarios que acaban olvidados.</p>
+                        <p><strong class="lang" data-es="Almacenamiento inadecuado:" data-en="Inadequate storage:">Almacenamiento inadecuado:</strong> No saber cómo o dónde guardar los alimentos para maximizar su frescura acelera su deterioro.</p>
+                        <p><strong class="lang" data-es="Cocinar en exceso:" data-en="Overcooking:">Cocinar en exceso:</strong> Preparar porciones demasiado grandes y no aprovechar las sobras.</p>
+                        <p><strong class="lang" data-es="Interpretación errónea de las fechas:" data-en="Misinterpretation of dates:">Interpretación errónea de las fechas:</strong> Tirar alimentos basándose únicamente en la fecha "consumir preferentemente antes de".</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiénes Somos -->
+        <section class="quienes-mosaic" id="quienes-somos">
+            <h2 class="lang" data-es="Quiénes Somos" data-en="About Us">Quiénes Somos</h2>
+            <div class="mosaic-panel">
+                <div class="panel-buttons">
+                    <button class="mosaic-btn lang" data-contenido="vision" data-es="Visión" data-en="Vision">Visión</button>
+                    <button class="mosaic-btn lang" data-contenido="mision" data-es="Misión" data-en="Mission">Misión</button>
+                    <button class="mosaic-btn lang" data-contenido="especifico" data-es="Objetivo Específico" data-en="Specific Objective">Objetivo Específico</button>
+                    <button class="mosaic-btn lang" data-contenido="general" data-es="Objetivo General" data-en="General Objective">Objetivo General</button>
+                </div>
+                <div class="mosaic-viewport">
+                    <div id="vision" class="mosaic-tile">
+                        <img src="./imagenes/vision1.png" alt="Visión">
+                    </div>
+                    <div id="mision" class="mosaic-tile">
+                        <img src="./imagenes/MISION2.png" alt="Misión">
+                    </div>
+                    <div id="especifico" class="mosaic-tile">
+                        <img src="./imagenes/OBJETIVOESPECIF4.png" alt="Objetivo específico">
+                    </div>
+                    <div id="general" class="mosaic-tile">
+                        <img src="./imagenes/OBJETIVO-GN3.png" alt="Objetivo general">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Perfiles -->
+        <section class="perfiles-galaxy" id="perfiles">
+            <h2 class="lang" data-es="Perfiles" data-en="Profiles">Perfiles</h2>
+            <div class="galaxy-cluster">
+                <div class="cluster-nav">
+                    <button class="star-btn lang" data-contenido="daniela" data-es="Daniela Carrillo" data-en="Daniela Carrillo">Daniela Carrillo</button>
+                    <button class="star-btn lang" data-contenido="carol" data-es="Carol Rubio" data-en="Carol Rubio">Carol Rubio</button>
+                </div>
+                <div class="cluster-stars">
+                    <div id="daniela" class="star-card">
+                        <div class="star-core">
+                            <img src="./imagenes/Yo.jpg" alt="Daniela Carrillo">
+                            <h3 class="lang" data-es="Daniela Carrillo" data-en="Daniela Carrillo">Daniela Carrillo</h3>
+                        </div>
+                        <div class="star-ring">
+                            <p class="lang" data-es="Mi nombre es Daniela Carrillo, soy del curso 1104 de la jornada tarde. Soy una persona alegre, soñadora y curiosa. Me gusta aprender cosas nuevas, soy creativa y me gusta tener siempre mi estilo propio. Aunque a veces me cuesta la disciplina, me esfuerzo por mejorar." data-en="My name is Daniela Carrillo, I am from class 1104 in the afternoon session. I am a cheerful, dreamy, and curious person. I love learning new things, I am creative, and I always like to have my own style. Although I sometimes struggle with discipline, I strive to improve.">Mi nombre es Daniela Carrillo, soy del curso 1104 de la jornada tarde. Soy una persona alegre, soñadora y curiosa. Me gusta aprender cosas nuevas, soy creativa y me gusta tener siempre mi estilo propio. Aunque a veces me cuesta la disciplina, me esfuerzo por mejorar.</p>
+                        </div>
+                    </div>
+                    <div id="carol" class="star-card">
+                        <div class="star-core">
+                            <img src="./imagenes/Carol.jpeg" alt="Carol Rubio">
+                            <h3 class="lang" data-es="Carol Rubio" data-en="Carol Rubio">Carol Rubio</h3>
+                        </div>
+                        <div class="star-ring">
+                            <p class="lang" data-es="Mi nombre es Carol Rubio, soy del curso 1104 de la jornada tarde. Soy una persona esforzada por salir adelante, alegre y con la disposición de hacer todo lo que se me proponga de manera creativa e inteligente. Aunque a veces me cuesta, intento mejorar mi disciplina y mi responsabilidad." data-en="My name is Carol Rubio, I am from class 1104 in the afternoon session. I am a hard-working person who strives to succeed, cheerful, and willing to tackle any task creatively and intelligently. Although I sometimes struggle with discipline, I try to improve my discipline and responsibility.">Mi nombre es Carol Rubio, soy del curso 1104 de la jornada tarde. Soy una persona esforzada por salir adelante, alegre y con la disposición de hacer todo lo que se me proponga de manera creativa e inteligente. Aunque a veces me cuesta, intento mejorar mi disciplina y mi responsabilidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solución Tecnológica -->
+        <section class="solucion-vortex" id="solucion-tecnologica">
+            <h2 class="lang" data-es="Solución Tecnológica" data-en="Technological Solution">Solución Tecnológica</h2>
+            <div class="vortex-core">
+                <p class="lang" data-es="Diseñar una aplicación informativa de manera sencilla para los niños de sexto del colegio Venecia sobre las consecuencias y soluciones del pesperdicio de la comida." data-en="Design a simple, informative application for sixth grade students at Venecia school about the consequences and solutions to food waste.">Diseñar una aplicación informativa de manera sencilla para los niños de sexto del colegio Venecia sobre las consecuencias y soluciones del pesperdicio de la comida.</p>
+                <a href="https://www.mediafire.com/file/0pq41hnmqsw8buk/HealthyBites.apk/file"><button class="orbit-btn lang"  data-es="PROBAR ST" data-en="TRY ST">PROBAR ST</button></a>
+                <img src="./imagenes/QR.png" alt="qr" class="intro-img">
+            </div>
+        </section>
+
+        <!-- Evidencias -->
+        <section class="evidencias-constellation" id="evidencias">
+            <h2 class="lang" data-es="Evidencias" data-en="Evidence">Evidencias</h2>
+            <div class="constellation-field">
+                <div class="star-item">
+                    <img src="./imagenes/Evidencia1.png" alt="Evidencia 1">
+                    <button class="nova-btn lang" data-descripcion="evidencia1" data-es="Leer" data-en="Read">Leer</button>
+                    <div class="nova-text" id="evidencia1">
+                        <p class="lang" data-es="Descripción de la Evidencia 1: Información relevante sobre esta evidencia." data-en="Description of Evidence 1: Relevant information about this evidence.">Descripción de la Evidencia 1: Información relevante sobre esta evidencia.</p>
+                    </div>
+                </div>
+                <div class="star-item">
+                    <img src="./imagenes/Evidencia2.png" alt="Evidencia 2">
+                    <button class="nova-btn lang" data-descripcion="evidencia2" data-es="Leer" data-en="Read">Leer</button>
+                    <div class="nova-text" id="evidencia2">
+                        <p class="lang" data-es="Descripción de la Evidencia 2: Información relevante sobre esta evidencia." data-en="Description of Evidence 2: Relevant information about this evidence.">Descripción de la Evidencia 2: Información relevante sobre esta evidencia.</p>
+                    </div>
+                </div>
+                <div class="star-item">
+                    <img src="./imagenes/Evidencia3.png" alt="Evidencia 3">
+                    <button class="nova-btn lang" data-descripcion="evidencia3" data-es="Leer" data-en="Read">Leer</button>
+                    <div class="nova-text" id="evidencia3">
+                        <p class="lang" data-es="Descripción de la Evidencia 3: Información relevante sobre esta evidencia." data-en="Description of Evidence 3: Relevant information about this evidence.">Descripción de la Evidencia 3: Información relevante sobre esta evidencia.</p>
+                    </div>
+                </div>
+                <div class="star-item">
+                    <img src="./imagenes/Evidencia4.png" alt="Evidencia 4">
+                    <button class="nova-btn lang" data-descripcion="evidencia4" data-es="Leer" data-en="Read">Leer</button>
+                    <div class="nova-text" id="evidencia4">
+                        <p class="lang" data-es="Descripción de la Evidencia 4: Información relevante sobre esta evidencia." data-en="Description of Evidence 4: Relevant information about this evidence.">Descripción de la Evidencia 4: Información relevante sobre esta evidencia.</p>
+                    </div>
+                </div>
+                <div class="star-item">
+                    <img src="./imagenes/Evidencia5.png" alt="Evidencia 5">
+                    <button class="nova-btn lang" data-descripcion="evidencia5" data-es="Leer" data-en="Read">Leer</button>
+                    <div class="nova-text" id="evidencia5">
+                        <p class="lang" data-es="Descripción de la Evidencia 5: Información relevante sobre esta evidencia." data-en="Description of Evidence 5: Relevant information about this evidence.">Descripción de la Evidencia 5: Información relevante sobre esta evidencia.</p>
+                    </div>
+                </div>
+                <div class="star-item">
+                    <img src="./imagenes/Evidencia6.png" alt="Evidencia 6">
+                    <button class="nova-btn lang" data-descripcion="evidencia6" data-es="Leer" data-en="Read">Leer</button>
+                    <div class="nova-text" id="evidencia6">
+                        <p class="lang" data-es="Descripción de la Evidencia 6: Información relevante sobre esta evidencia." data-en="Description of Evidence 6: Relevant information about this evidence.">Descripción de la Evidencia 6: Información relevante sobre esta evidencia.</p>
+                    </div>
+                </div>
+                <div class="star-item">
+                    <img src="./imagenes/evidencia7.png" alt="Evidencia 7">
+                    <button class="nova-btn lang" data-descripcion="evidencia7" data-es="Leer" data-en="Read">Leer</button>
+                    <div class="nova-text" id="evidencia7">
+                        <p class="lang" data-es="Descripción de la Evidencia 7: Información relevante sobre esta evidencia." data-en="Description of Evidence 7: Relevant information about this evidence.">Descripción de la Evidencia 7: Información relevante sobre esta evidencia.</p>
+                    </div>
+                </div>
+                <div class="star-item">
+                    <img src="./imagenes/evidencia8.png" alt="Evidencia 8">
+                    <button class="nova-btn lang" data-descripcion="evidencia8" data-es="Leer" data-en="Read">Leer</button>
+                    <div class="nova-text" id="evidencia8">
+                        <p class="lang" data-es="Descripción de la Evidencia 8: Información relevante sobre esta evidencia." data-en="Description of Evidence 8: Relevant information about this evidence.">Descripción de la Evidencia 8: Información relevante sobre esta evidencia.</p>
+                    </div>
+                    
+                </div>
+                <div class="star-item">
+                    <a href="https://docs.google.com/forms/d/1WehJ3nPylfbWimoUzhdr_uxKletTtWJr1KYsG15LxP0/viewform?pli=1&sharingaction=ownershiptransfer&ts=68faf5a9&pli=1&edit_requested=true"><button class="nova-btn lang" data-es="Formulario" data-en="Form">Formulario</button> </a> 
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-nebula">
+        <div class="nebula-core">
+            <p class="marca-pie lang" data-es="2025 Healthybites. Todos los derechos reservados." data-en="2025 Healthybites. All rights reserved.">2025 Healthybites. Todos los derechos reservados.</p>
+            <div class="nebula-links">
+                <a href="documento.html" class="nebula-link lang" data-es="Documento" data-en="Document">Documento</a>
+                <a href="#" class="nebula-link lang" data-es="Contáctanos" data-en="Contact Us">Contáctanos</a>
+                <a href="#" class="social-img-link"><img src="./imagenes/Facebook.png" class="social-img" alt="Facebook"></a>
+                <a href="#" class="social-img-link"><img src="./imagenes/Instagram.jpg" class="social-img" alt="Instagram"></a>
+                <a href="#" class="social-img-link"><img src="./imagenes/X.png" class="social-img" alt="X"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        const langToggle = document.getElementById('lang-toggle');
+        let currentLang = 'es';
+        langToggle.textContent = 'English';
+
+        function setLanguage(lang) {
+            const elements = document.querySelectorAll('.lang');
+            elements.forEach(el => {
+                if (el.getAttribute(`data-${lang}`)) {
+                    if (el.tagName === 'P' || el.tagName === 'H3' || el.tagName === 'H4' || el.tagName === 'H5') {
+                        el.innerHTML = el.getAttribute(`data-${lang}`);
+                    } else {
+                        el.textContent = el.getAttribute(`data-${lang}`);
+                    }
+                }
+            });
+            currentLang = lang;
+            langToggle.textContent = lang === 'es' ? 'English' : 'Español';
+            document.documentElement.lang = lang;
+        }
+
+        langToggle.addEventListener('click', () => {
+            const newLang = currentLang === 'es' ? 'en' : 'es';
+            setLanguage(newLang);
+        });
+
+
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        const botonesMosaic = document.querySelectorAll('.mosaic-btn');
+        const tilesMosaic = document.querySelectorAll('.mosaic-tile');
+
+        botonesMosaic.forEach(btn => {
+            btn.addEventListener('click', () => {
+                botonesMosaic.forEach(b => b.classList.remove('active'));
+                tilesMosaic.forEach(t => t.classList.remove('active'));
+                btn.classList.add('active');
+                const target = document.getElementById(btn.dataset.contenido);
+                if (target) {
+                    target.classList.add('active');
+                }
+            });
+        });
+
+        const starBtns = document.querySelectorAll('.star-btn');
+        const starCards = document.querySelectorAll('.star-card');
+
+        starBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                starBtns.forEach(b => b.classList.remove('active'));
+                starCards.forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                const target = document.getElementById(btn.dataset.contenido);
+                if (target) {
+                    target.classList.add('active');
+                }
+            });
+        });
+
+        const novaBtns = document.querySelectorAll('.nova-btn');
+        novaBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const id = btn.dataset.descripcion;
+                const text = document.getElementById(id);
+                document.querySelectorAll('.nova-text').forEach(t => {
+                    t.classList.remove('active');
+                });
+                text.classList.toggle('active');
+            });
+        });
+        setLanguage('es');
+    </script>
+</body>
+</html>

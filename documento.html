@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>HEALTHYBITES - Documento</title>
+    <link rel="shortcut icon" href="./imagenes/Logo.jpg">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="doc.css">
+</head>
+<body>
+    <header class="hero-header">
+        <div class="header-content">
+            <div class="logo-circle">
+                <img src="./imagenes/Logo.jpg" alt="Logotipo">
+            </div>
+            <h1 class="marca">HEALTHYBITES</h1>
+        </div>
+        <nav class="nav-orbits">
+            <ul>
+                <li><a href="index.html"><button class="orbit-btn">inicio</button></a></li>
+                <li><a href="##"><button class="orbit-btn">Contacto</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-flow" id="inicio">
+        <section class="document-container">
+            <h2>Documento</h2>
+            <div class="document-viewport">
+                <embed src="./imagenes/comunicacion22.pdf" type="application/pdf" width="100%" height="800px">
+                <p class="fallback-text">Tu navegador no soporta la visualización de PDFs. Por favor, <a href="./documento.pdf" download>descarga el documento</a> para verlo.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-nebula">
+        <div class="nebula-core">
+            <p class="marca-pie">2025 Healthybites. Todos los derechos reservados.</p>
+            <div class="nebula-links">
+                <a href="index.html#contacto" class="nebula-link">Contáctanos</a>
+                <a href="#" class="social-img-link"><img src="./imagenes/Facebook.png" class="social-img" alt="Facebook"></a>
+                <a href="#" class="social-img-link"><img src="./imagenes/Instagram.jpg" class="social-img" alt="Instagram"></a>
+                <a href="#" class="social-img-link"><img src="./imagenes/X.png" class="social-img" alt="X"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+    </script>
+</body>
+</html>
